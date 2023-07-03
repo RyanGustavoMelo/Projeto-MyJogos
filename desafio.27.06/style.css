@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./assets/Fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #121214;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  width: 580px;
+  height: 620px;
+  margin-top: 32px;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 23px;
+}
+
+.info {
+  background-color: #2a2634;
+  width: 580px;
+  height: 200px;
+  padding: 24px 32px 32px 32px;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.info h1 {
+  margin-bottom: 8px;
+
+  font-size: 24px;
+}
+
+.info p {
+  color: #a1a1aa;
+  font-size: 16px;
+}
+
+.info-jogos {
+  margin-top: 24px;
+}
+
+.info-jogos img {
+  margin: 5px;
+}
+
+.info-two {
+  background-color: #2a2634;
+  margin-top: 24px;
+  width: 580px;
+  height: 150px;
+  padding: 24px 32px 32px 32px;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.info-two h1 {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.info-two p {
+  color: #a1a1aa;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.info-jogos-stream {
+  margin-top: 24px;
+}
+
+.info-jogos-stream img {
+  margin: 5px;
+}
+
+.info-three {
+  background-color: #2a2634;
+  margin-top: 24px;
+  width: 580px;
+  height: 120px;
+  padding: 24px 32px 32px 32px;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.info-three h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.info-three p {
+  font-size: 16px;
+  color: #a1a1aa;
+  margin-bottom: 24px;
+}
+
+.info-jogos-icon img {
+  margin: 5px;
+}
